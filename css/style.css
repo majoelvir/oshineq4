@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@font-face{
+	font-family: 'Crimson Bold';
+	src: url("../fonts/CrimsonText-Bold.ttf") format('truetype');
+}
+
+:root{
+	--color-azul:#2293D7;
+	--color-contenido:#808080;
+	--color-titulos:#22222;
+	--color-susbtitulos:#757575;
+	--fondo-gris:#f4f4f4;
+	--fondo-verde:#28d1a2;
+	--fondo-header:#000;
+	--fondo-negro:#000;
+	--color-negro2: #404040;
+	--fondo-footer: #ebebeb;
+}
+
+body{
+	font-family: "Nunito", sans-serif;
+	font-size: 16px;
+	color: var(--color-contenido);
+}
+header{
+	padding: 20px 0px;
+	background-color: #000000;
+}
+#hero{
+	background-image: url("../img/hero-home.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	color: #FFFFFF;
+	background-blend-mode: multiply;
+	background-color:rgba(0,0,0,0.45);
+}
+
+#hero h1{
+	font-size: 70px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+#hero h2{
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+#hero .btn-dark{
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 20px 50px;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+#services{
+	background-color: var (--fondo-gris);
+	text-align: center;
+}
+
+.padding-section{
+	padding: 80px 0;
+}
+.titulo{
+	color: var(--color-titulos);
+	font-weight: 200;
+	text-align: center;
+	font-size: 40px;
+}
+.subtitulo{
+	color: var(--color-subtitulos);
+	font-family: "Crimson text", serif;
+	font-weight: 500;
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 50px;
+}
+#services h3,
+.info-what h3{
+	color: var(--color-negro2);
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.row-margin{
+	margin-top: 20px;
+}
+
+.btn-view-more{
+	background-color:var(--fondo-verde);
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 15px 30px;
+	border-radius: 0;
+	margin-top: 30px;
+}
+
+#services i
+.info-what i{
+	color: var(--color-verde);
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+#what{
+	border-top: 1px solid #ddd;
+	
+}
+.info-what{
+	margin-top: 50px;
+}
+
+#testimonials{
+	background-color: var(--fondo-gris);
+	text-align: center;
+}
+
+.testimonio{
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 10px;
+}
+
+.testimonio h3{
+	text-transform: uppercase;
+	font-size: 12px;
+	color: var(--color-titulos);
+	letter-spacing: 1px;
+}
+
+.testimonio h4{
+	font-style: italic;
+	font-size: 18px;
+	font-family: 'Crimson Text';
+}
+
+.testimonio p{
+	margin-top: 50px;
+	border-bottom: 30px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	padding: 80px 0;
+}
+
+footer h4{
+	text-transform: uppercase;
+	font-size: 12px;
+	color: var(--color-titulos);
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+#hero-page{
+	padding: 10% 25%;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0,0,0,0.55);
+	background-blend-mode: multiply;
+}
+
+#hero-page h3{
+	font-family: 'Crimson Text';
+	font-style: italic;
+	font-size: 16px;
+}
+
+#hero-page h1{
+	font-size: 55px;
+	font-weight: 300;
+}
+
+.fondo-contact{
+	background-image: url("../img/bg-contact.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+.fondo-about{
+	background-image: url("../img/hero-about.jpg");
+		background-position: center;
+	background-size: cover;
+}
+.bg-gris{
+	background-color: var(--fondo-gris);
+}
+
+#services-about-i{
+	color: var(--color-verde);
+	font-size: 20px;
+}
+
+#services-about h3{
+	font-size: 20px;
+	color: var(--color-titulos);
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+#services-about .row{
+	margin-bottom: 40px;
+}
+#why .subtitulo{
+	text-align: left;
+}
+#why .titulo{
+	text-align: left;
+}
+#team{
+	text-align: center;
+}
+#team h4{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: var()
+}
+#team h5{
+	font-style: italic;
+	font-family: 'Crimson Text';
+	font-size: 10px;
+}
+
+.owl-carousel .owl-item img{
+	width: inherit;
+	margin: auto;
+}
+.owl-carousel .owl-dots {
+    text-align: center;
+}
+.owl-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.owl-carousel .owl-dot.active {
+    background-color: var(--color-verde);
+    border: 0 !important;
+}

@@ -7,7 +7,14 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="css/owl.carousel.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+	
+	
+	
+<meta name="Description" content="sitio web de plantilla HTML para el aprendizaje para creación y desarrollo de páginas web. Encontrá contenido como servicios, equipo de trabajas, ventajas o desventajas.">	
+<meta name="Keywords" content="web design, plantillas html, aprendizajes de sitios web, crear páginas web, crear páginas web en Honduras, servicios, equipo de trabajo de oshine">		
+
 </head>
 
 <body>
@@ -160,31 +167,39 @@
 		<h2 class="titulo">Meet Our Team</h2>
 		<h3 class="subtitulo">Guys who get your work done</h3>
 			
-		<div class="row">
+		<div class="owl-carousel">
 			
-			<article class="col-lg-3 col-sm-6 col-12">
+			<article>
 				<img src="img/team-1.png" alt="team" class="img-fluid">
 				<h4>Katy Perry</h4>
 				<h5>UI Designer</h5>
 				<p>Our most fascinating and amazing UI Designer. she has been with us since the start of the company.</p>
 			</article>
 			
-			<article class="col-lg-3 col-sm-6 col-12">
+			<article>
 				<img src="img/team-2.png" alt="team" class="img-fluid">
 				<h4>Jack</h4>
 				<h5>UX Designer</h5>
 				<p>Jack is such an amzing software developer and comes with an amazing set of hacking skills.</p>
 			</article>
-			<article class="col-lg-3 col-sm-6 col-12">
+			
+			<article>
 				<img src="img/team-3.png" alt="team" class="img-fluid">
 				<h4>Bruce</h4>
 				<h5>Lead Developer</h5>
 				<p>Bruce leads the team and is one of the most brutal and instinctive person in the office.</p>
 			</article>
 			
-			<article class="col-lg-3 col-sm-6 col-12">
+			<article>
 				<img src="img/team-4.png" alt="team" class="img-fluid">
 				<h4>Jessica Jones</h4>
+				<h5>Photographer</h5>
+				<p>Jessica is the official photographer of our team and is really great at stock photos.</p>
+			</article>
+			
+			<article>
+				<img src="img/team-5.png" alt="team" class="img-fluid">
+				<h4>Jenny</h4>
 				<h5>Photographer</h5>
 				<p>Jessica is the official photographer of our team and is really great at stock photos.</p>
 			</article>
@@ -250,8 +265,40 @@
 	
 	<script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>	
+<script>
+	
+	$(document).ready(function(){
+		
+		$(".owl-carousel").owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                smartSpeed: 800,
+                margin: 30,
+                center: true,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    480: {
+                        items: 3
+                    },
+                    992: {
+                        items: 5
+                    }
+                }
+            });
+  
 	
 	
+	
+	
+});	
+	
+	
+</script>
 	
 	
 </body>
